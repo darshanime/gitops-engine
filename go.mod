@@ -3,14 +3,13 @@ module github.com/argoproj/gitops-engine
 go 1.14
 
 require (
-	github.com/evanphx/json-patch v4.2.0+incompatible
+	github.com/evanphx/json-patch v4.9.0+incompatible
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.6.0
 	github.com/spf13/cobra v1.0.0
 	github.com/stretchr/testify v1.6.1
 	golang.org/x/sync v0.0.0-20200625203802-6e8e738ad208
-	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 	k8s.io/api v0.18.6
 	k8s.io/apiextensions-apiserver v0.18.6
 	k8s.io/apimachinery v0.18.6
@@ -18,7 +17,7 @@ require (
 	k8s.io/client-go v0.18.6
 	k8s.io/kube-aggregator v0.18.6
 	k8s.io/kubectl v0.18.6
-	k8s.io/kubernetes v1.18.6
+	k8s.io/kubernetes v1.19.0
 	sigs.k8s.io/yaml v1.2.0
 )
 
