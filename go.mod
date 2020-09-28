@@ -15,7 +15,7 @@ require (
 	k8s.io/client-go v0.18.8
 	k8s.io/kube-aggregator v0.18.8
 	k8s.io/kubectl v0.18.8
-	k8s.io/kubernetes v1.18.8
+	k8s.io/kubernetes v1.19.2
 	sigs.k8s.io/yaml v1.2.0
 )
 
